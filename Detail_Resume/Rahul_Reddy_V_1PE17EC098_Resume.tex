@@ -1,0 +1,139 @@
+\documentclass[13pt,a4paper,sans,english]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+%\usepackage{hyperref}
+%\hypersetup{
+   % colorlinks=true,
+   % linkcolor=blue,
+   % filecolor=magenta,      
+   % urlcolor=cyan,
+%}
+\usepackage{xcolor}
+\pagestyle{fancy}
+\rfoot{\thepage} %\rfoot{\thepage\ of \pageref{LastPage}}
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{Red}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by t••••he encoding you are using
+\usepackage[top=2cm,bottom=2cm,left=2cm,right=2cm,headsep=10pt,a4paper]{geometry}
+\usepackage{babel}
+\usepackage{pdfpages}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+%\usepackage{hyperref}
+\cfoot{\textcolor{gray}{"\textit{Intelligence is getting lost in your own wonders}"}}
+%----------------------------------------------------------------------------------
+%            personal data
+%----------------------------------------------------------------------------------
+\firstname{Rahul}
+\familyname{Reddy V}
+
+\title{$ 4^{th} $ Year B-Tech Student}                               % optional, remove/comment the line if not wanted
+\address{\# 790, Hebbagodi, Bhavani Road,\\ Behind Karur Vysya Bank, \\ Bommasandra Industrial Area-Post \\ Bengaluru, Karnataka, India - 560099}{ }         % optional, remove/comment the line if not wanted; the "country" arguments can be omitted or provided empty
+\mobile{+919108887934}                          % optional, remove/comment the line if not wanted
+%\phone{080-23108015}                           % optional, remove/comment the line if not wanted
+%\fax{fax number}                             % optional, remove/comment the line if not wanted
+\email{rahulreddy19981998@gmail.com}            % optional, remove/comment the line if not wanted
+\homepage{notonline.live}                         % optional, remove/comment the line if not wanted
+%\homepage{linkedin.com/in/rarev10/}
+%\extrainfo{additional information}                 % optional, remove/comment the line if not wanted
+\photo[64pt][0pt]{DP}                       % optional, uncomment the line if wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+\quote{Intelligence is getting lost in your own wonders}                                 % optional, remove/comment the line if not wanted
+%
+\begin{document}
+%\footnote{Intelligence is getting lost in your own wonders} 
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+\section{Education}
+
+\cventry{2017-Present}{B.E.(Electronics and Communication)}{PESIT-BSC}{Bengaluru}{}{VTU}
+\cventry{2015-2017}{PUC(10$+$2)}{Jain College}{Bengaluru}{72\%}{K-PUC}  % arguments 3 to 6 can be left empty
+\cventry{2014-2015}{Class X}{India International School}{Bengaluru}{78\%}{ICSE}
+
+\section{Tools Known}
+\begin{multicols}{2}
+[]
+\cvitem{Arduino \\ \textit{(Uno, Mega)}}{Advance}
+\cvitem{NodeMCU \\ \textit{(ESP8266)}}{Advance}
+\cvitem{Raspberry Pi}{Advance}
+\columnbreak
+\cvlistitem{\cvitem{Xilinx Vivado}{Intermediate}}
+%\cvlistitem{\cvitem{Cadance}{Intermediate}}
+\cvlistitem{\cvitem{SolidEdge}{Intermediate}}
+\cvlistitem{\cvitem{MatLab}{Beginner}}
+\end{multicols}
+\section{Programming Languages}
+\begin{multicols}{2}
+[]
+\cvitem{C \& C++}{Intermediate}
+\cvitem{Python3}{Intermediate}
+%\cvitem{Rust}{Beginner}
+\cvitem{Verilog}{Intermediate}
+\cvitem{VHDL}{Intermediate}
+\columnbreak
+\cvlistitem{\cvitem{Linux CLI}{Intermediate}}
+\cvlistitem{\cvitem{\LaTeX}{Intermediate}}
+%\cvlistitem{\cvitem{Java}{Intermediate}}
+%\cvlistitem{\cvitem{R}{Beginner}}
+\end{multicols}
+
+\section{Online Certifications}
+\cvitemwithcomment{\textit{Ethical Hacking}}{Beginner}{Successfully Completed \textbf{Udemy Online Certification in Ethical Hacking}}
+\cvitemwithcomment{\textit{Complete Ethical Hacking}}{Advance}{Successfully Completed \textbf{Udemy Online Certification in Ethical Hacking by \\ Zaid Sabih from Z Security}}
+\cvitemwithcomment{\textit{The Ultimate Dark Web, Anonymity, Privacy \& Security Course}}{Advance}{Successfully Completed \textbf{Udemy Online Certification in The Ultimate Dark Web, Anonymity, Privacy \& Security Course by Zaid Sabih from Z Security}}
+\cvitemwithcomment{\textit{Social Engineering}}{Advance}{Successfully Completed \textbf{Udemy Online Certification in Social Engineering Course by Zaid Sabih from Z Security}}
+\cvitemwithcomment{\textit{Website Hacking, Penetration Testing \& Bug Bounty Hunting}}{Advance}{Successfully Completed \textbf{Udemy Online Certification in Website Hacking, Penetration Testing \& Bug Bounty Hunting Course by Zaid Sabih from Z Security}}
+\cvitemwithcomment{\textit{Welcome to Embedded Systems Bare-Metal Programming Ground Up (STM32)}}{Advance}{Successfully Completed \textbf{Udemy Online Certification in Welcome to Embedded Systems Bare-Metal Programming Ground Up (STM32)}}
+\cvitemwithcomment{\textit{Embedded Systems Programming on ARM Cortex-M3/M4 Processor}}{Advance}{Successfully Completed \textbf{Udemy Online Certification in Embedded Systems Programming on ARM Cortex-M3/M4 Processor}}
+\section{Projects Done}
+\subsection{Remote Controlled Solar chargeable Night Patrolling Robot}
+\cvitem{Oct 2020 - till date}{(Final Year Project)This project is a \textbf{python-based} project. The Robot is based of \textbf{Raspberry Pi} controlled by keyboard on a LAN Computer with advance security features.}
+
+\subsection{Voice Controlled Home Automation Using MicroPython}
+\cvitem{Dec 2019 - Jul 2020}{This project is a \textbf{python-based} project. In this project, server takes voice commands from the user to perform tasks. The key concept involved in this project are TCP-IP socket communication. It makes use of \textbf{Google speech to text API}. This project also involves the use of \textbf{MicroPython} supported boards. \textbf{GitHub Repository Linked up in the contact information.}}
+
+\subsection{Parking Assist with Drones}
+\cvitem{Nov 2019 - Present \\ \textbf{IICDC-2019\\by Texas Instruments}}{Using \textbf{autonomous guiding system we are implementing a parking system using drones}.It increases the parking system efficiency by finding free spots, and the \textbf{shortest path to those spots} which would be based on optimized algorithms. These \textbf{coordinated drones guide the cars to its parking spots} and return to self-charge. Using \textbf{image processing} a sense of vision is provided to our drones which enables it to \textbf{tag vehicles and route accordingly in the area}. My Contribution in this project was to assemble, test and troubleshoot the \textbf{hardware part of the Drones} and \textbf{Computer perception sense programming using AI to auto-pilot the drones}}
+
+\subsection{Smart Real Time Waste Segregator}
+\cvitem{30-31 Mar 2019 \\ \textbf{Kludge 6.0}}{We made a \textbf{real-time waste segregator} which can \textbf{identify the type of waste and put them in different bins accordingly and automatically},can tell when the bin is full, its weight and also communicate to designed android application thereby regulating garbage collection and disposal. My Contribution in this project was to assemble, test and troubleshoot the hardware part like \textbf{Arduino Mega, Stepper Motor, Moisture Sensor, Ultrasonic Sensor, Mechanical movement of the lid by Servo Motor}}
+
+\newpage
+\section{Workshops Attended}
+\subsection{Artificial Intelligence and Machine Learning Workshop, IISC Bengaluru}
+\cvitem{1-2 Feb 2020}{Two Days Workshop on Artificial Intelligence and Machine Learning}
+\subsection{Blockchain Workshop, PESIT Bengaluru South Campus}
+\cvitem{9 Feb 2020}{One Day(15 hours) Workshop on Blockchain by Tezos India Foundation}
+\subsection{Embedded Systems Workshop, IISC Bengaluru}
+\cvitem{Jan 2018}{A Two Day Workshop on Embedded Systems}
+\subsection{Robotics with Arduino Workshop, PESIT Bengaluru South Campus}
+\cvitem{2017}{One Day Workshop on Robotics with Arduino by IEEE}
+\begin{multicols}{2}
+[
+\section{Areas of Interest}
+]
+\cvlistitem{\textbf{Embedded Systems}}
+\cvlistitem{\textbf{Internet of Things(IoT)}}
+\cvlistitem{\textbf{Robotics}}
+\cvlistitem{Ethical Hacking}
+\cvlistitem{Digital Electronics}
+\cvlistitem{VLSI Design}
+\end{multicols}
+
+\section{Hobbies}
+\cvlistitem{Ethical Hacking}
+\cvlistitem{Latest Technology Research}
+\cvlistitem{Football, Badminton}
+
+\section{Reference}
+\cventry{\textbf{Mr.Ananda\phantom{i}M}}{Assistant Professor}{}{PESIT-BSC}{Bengaluru}{\texttt{anandam@pes.edu}}
+\cventry{\textbf{Mr.Bivas \\Bhattacharya}}{Assistant Professor}{}{PESIT-BSC}{Bengaluru}{\texttt{bivas@pes.edu}}
+
+\begin{multicols}{2}
+[
+\section{Personal Details}
+]
+\cvitem{Date of birth}{May 31\textsuperscript{st},1998}
+\cvitem{Languages known}{English, Kannada, Hindi, Telugu}
+\cvitem{Father's Name}{N. Venkatesh Reddy}
+\cvitem{Mother's Name}{K.S. Chandrakala}
+\end{multicols}
+\end{document}

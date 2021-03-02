@@ -1,0 +1,147 @@
+\documentclass[13pt,a4paper,sans,english]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+%\usepackage{hyperref}
+%\hypersetup{
+   % colorlinks=true,
+   % linkcolor=blue,
+   % filecolor=magenta,      
+   % urlcolor=cyan,
+%}
+\usepackage{xcolor}
+\pagestyle{fancy}
+\rfoot{\thepage} %\rfoot{\thepage\ of \pageref{LastPage}}
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{red}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by t••••he encoding you are using
+\usepackage[top=2cm,bottom=2cm,left=2cm,right=2cm,headsep=10pt,a4paper]{geometry}
+\usepackage{babel}
+\usepackage{pdfpages}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+%\usepackage{hyperref}
+\cfoot{\textcolor{gray}{"\textit{Intelligence is getting lost in your own wonders}"}}
+%----------------------------------------------------------------------------------
+%            personal data
+%----------------------------------------------------------------------------------
+\firstname{Rahul}
+\familyname{Reddy V}
+
+\title{$ 4^{th} $ Year B-Tech Student}                               % optional, remove/comment the line if not wanted
+\address{\# 790, Hebbagodi, Bhavani Road,\\ Behind Karur Vysya Bank, \\ Bommasandra Industrial Area-Post \\ Bengaluru, Karnataka, India - 560099}{ }         % optional, remove/comment the line if not wanted; the "country" arguments can be omitted or provided empty
+\mobile{+919108887934}                          % optional, remove/comment the line if not wanted
+%\phone{080-23108015}                           % optional, remove/comment the line if not wanted
+%\fax{fax number}                             % optional, remove/comment the line if not wanted
+\email{rahulreddy19981998@gmail.com}            % optional, remove/comment the line if not wanted
+\homepage{notonline.live}                         % optional, remove/comment the line if not wanted
+%\homepage{linkedin.com/in/rarev10/}
+%\extrainfo{additional information}                 % optional, remove/comment the line if not wanted
+\photo[64pt][0pt]{DP}                       % optional, uncomment the line if wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+\quote{}                                 % optional, remove/comment the line if not wanted
+%
+\begin{document}
+%\footnote{Intelligence is getting lost in your own wonders} 
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+\section{Education}
+
+\cventry{2017-Present}{B.E.(Electronics and Communication)}{PESIT-BSC}{Bengaluru}{}{VTU}
+\cventry{2015-2017}{PUC(10$+$2)}{Jain College}{Bengaluru}{72\%}{K-PUC}  % arguments 3 to 6 can be left empty
+\cventry{2014-2015}{Class X}{India International School}{Bengaluru}{78\%}{ICSE}
+
+\section{Tools Known}
+\begin{multicols}{2}
+[]
+\cvitem{Arduino \\ \textit{(Uno, Mega)}}{Advance}
+\cvitem{NodeMCU \\ \textit{(ESP8266)}}{Advance}
+\cvitem{Raspberry Pi}{Advance}
+\columnbreak
+\cvlistitem{\cvitem{Xilinx Vivado}{Intermediate}}
+%\cvlistitem{\cvitem{Cadance}{Intermediate}}
+\cvlistitem{\cvitem{SolidEdge}{Intermediate}}
+\cvlistitem{\cvitem{MatLab}{Beginner}}
+\end{multicols}
+\section{Programming Languages}
+\begin{multicols}{2}
+[]
+\cvitem{C \& C++}{Intermediate}
+\cvitem{Python3}{Intermediate}
+%\cvitem{Rust}{Beginner}
+\cvitem{Verilog}{Intermediate}
+\cvitem{VHDL}{Intermediate}
+\columnbreak
+\cvlistitem{\cvitem{Linux CLI}{Intermediate}}
+\cvlistitem{\cvitem{\LaTeX}{Intermediate}}
+%\cvlistitem{\cvitem{Java}{Intermediate}}
+%\cvlistitem{\cvitem{R}{Beginner}}
+\end{multicols}
+
+\section{Online Certifications}
+\cvitemwithcomment{Udemy}{Advance}{Ethical Hacking by Z Security}
+\cvitemwithcomment{Udemy}{Advance}{The Ultimate Dark Web, Anonymity, Privacy \& Security Course by Z Security}
+\cvitemwithcomment{Udemy}{Advance}{Social Engineering Course by Z Security}
+\cvitemwithcomment{Udemy}{Advance}{Website Hacking, Penetration Testing \& Bug Bounty Hunting Course by Z Security}
+\cvitemwithcomment{Udemy}{Intermediate}{Embedded Systems Bare-Metal Programming Ground Up (STM32)}
+\cvitemwithcomment{Udemy}{Intermediate}{Embedded Systems Programming on ARM Cortex-M3/M4 Processor}
+\cvitemwithcomment{Coursera}{Intermediate}{HTML, CSS, and Javascript for Web Developers by Johns Hopkins University}
+\cvitemwithcomment{Coursera}{Beginner}{Cybersecurity and the Internet of Things
+by University System of Georgia}
+\cvitemwithcomment{Cisco}{Intermediate}{PCAP: Programming Essentials In Python 0420 dm by Cisco Virtual Academy}
+\cvitemwithcomment{Cisco}{Beginner}{Introduction to Cybersecurity 0220 wr by Cisco Virtual Academy}
+\newpage
+\section{Projects Done}
+\subsection{Remote Controlled Solar chargeable Night Patrolling Robot}
+\cvitem{\phantom{i}}{(Final Year Project)Oct 2020 - Present}
+
+\subsection{Rubber Ducky Attack Prevention}
+\cvitem{\phantom{i}}{(Jul 2020 - Sept 2020)}
+
+\subsection{Voice Controlled Home Automation Using MicroPython}
+\cvitem{\phantom{i}}{Dec 2019 - Jul 2020}
+
+\subsection{Parking Assist with Drones}
+\cvitem{\phantom{l}}{Nov 2019 - Present \textbf{IICDC-2019 by Texas Instruments}}
+
+\subsection{Smart Real Time Waste Segregation System}
+\cvitem{\phantom{i}}{30-31 Mar 2019 \textbf{Kludge 6.0}}
+
+%\newpage
+\section{Workshops Attended}
+\subsection{Artificial Intelligence and Machine Learning Workshop, IISC Bengaluru}
+\cvitem{1-2 Feb 2020}{Two Days Workshop on Artificial Intelligence and Machine Learning}
+\subsection{Blockchain Workshop, PESIT Bengaluru South Campus}
+\cvitem{9 Feb 2020}{One Day(15 hours) Workshop on Blockchain by Tezos India Foundation}
+\subsection{Embedded Systems Workshop, IISC Bengaluru}
+\cvitem{Jan 2018}{A Two Day Workshop on Embedded Systems}
+\subsection{Robotics with Arduino Workshop, PESIT Bengaluru South Campus}
+\cvitem{2017}{One Day Workshop on Robotics with Arduino by IEEE}
+\begin{multicols}{2}
+[
+\section{Areas of Interest}
+]
+\cvlistitem{\textbf{Embedded Systems}}
+\cvlistitem{\textbf{Internet of Things(IoT)}}
+\cvlistitem{\textbf{Robotics}}
+\cvlistitem{Cybersecurity}
+\cvlistitem{Digital Electronics}
+\cvlistitem{VLSI Design}
+\end{multicols}
+
+\section{Hobbies}
+\cvlistitem{Ethical Hacking}
+\cvlistitem{Latest Technology Research}
+\cvlistitem{Football, Badminton}
+
+\section{Reference}
+\cventry{\textbf{Mr.Ananda\phantom{i}M}}{Assistant Professor}{}{PESIT-BSC}{Bengaluru}{\texttt{anandam@pes.edu}}
+\cventry{\textbf{Mr.Bivas \\Bhattacharya}}{Assistant Professor}{}{PESIT-BSC}{Bengaluru}{\texttt{bivas@pes.edu}}
+
+\begin{multicols}{2}
+[
+\section{Personal Details}
+]
+\cvitem{\textbf{Date of birth}}{May 31\textsuperscript{st},1998}
+\cvitem{\textbf{Languages known}}{English, Kannada, Hindi, Telugu}
+\cvitem{\textbf{Father's Name}}{N. Venkatesh Reddy}
+\cvitem{\textbf{Mother's Name}}{K.S. Chandrakala}
+\end{multicols}
+\end{document}
