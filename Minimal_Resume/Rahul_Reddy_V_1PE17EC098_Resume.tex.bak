@@ -26,7 +26,7 @@
 \firstname{Rahul}
 \familyname{Reddy V}
 
-\title{$ 4^{th} $ Year B-Tech Student}                               % optional, remove/comment the line if not wanted
+\title{Full Stack Web Developer}                               % optional, remove/comment the line if not wanted
 \address{\# 790, Hebbagodi, Bhavani Road,\\ Behind Karur Vysya Bank, \\ Bommasandra Industrial Area-Post \\ Bengaluru, Karnataka, India - 560099}{ }         % optional, remove/comment the line if not wanted; the "country" arguments can be omitted or provided empty
 \mobile{+919108887934}                          % optional, remove/comment the line if not wanted
 %\phone{080-23108015}                           % optional, remove/comment the line if not wanted
@@ -42,9 +42,13 @@
 %\footnote{Intelligence is getting lost in your own wonders} 
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
+\section{Work Experience}
+\cventry{March, 2021 - April, 2021}{Full Stack Web Developer}{QuickMetrix}{Bengaluru}{}{Internship}
+\cventry{February, 2021 - Present}{Full Stack Web Developer}{PESU Venture Labs}{Bengaluru}{}{Full time}
+
 \section{Education}
 
-\cventry{2017-Present}{B.E.(Electronics and Communication)}{PESIT-BSC}{Bengaluru}{}{VTU}
+\cventry{2017-2021}{B.E.(Electronics and Communication)}{PESIT-BSC}{Bengaluru}{}{VTU}
 \cventry{2015-2017}{PUC(10$+$2)}{Jain College}{Bengaluru}{72\%}{K-PUC}  % arguments 3 to 6 can be left empty
 \cventry{2014-2015}{Class X}{India International School}{Bengaluru}{78\%}{ICSE}
 
@@ -56,50 +60,48 @@
 \cvitem{Raspberry Pi}{Advance}
 \columnbreak
 \cvlistitem{\cvitem{Xilinx Vivado}{Intermediate}}
-%\cvlistitem{\cvitem{Cadance}{Intermediate}}
+\cvlistitem{\cvitem{Cadance}{Beginner}}
 \cvlistitem{\cvitem{SolidEdge}{Intermediate}}
 \cvlistitem{\cvitem{MatLab}{Beginner}}
 \end{multicols}
 \section{Programming Languages}
 \begin{multicols}{2}
 []
-\cvitem{C \& C++}{Intermediate}
-\cvitem{Python3}{Intermediate}
+\cvitem{C \& C++}{Advance}
+\cvitem{Python3}{Advance}
 %\cvitem{Rust}{Beginner}
 \cvitem{Verilog}{Intermediate}
 \cvitem{VHDL}{Intermediate}
 \columnbreak
-\cvlistitem{\cvitem{Linux CLI}{Intermediate}}
-\cvlistitem{\cvitem{\LaTeX}{Intermediate}}
-%\cvlistitem{\cvitem{Java}{Intermediate}}
+\cvlistitem{\cvitem{Linux CLI}{Advance}}
+\cvlistitem{\cvitem{\LaTeX}{Advance}}
+\cvlistitem{\cvitem{Java}{Intermediate}}
 %\cvlistitem{\cvitem{R}{Beginner}}
 \end{multicols}
 
 \section{Online Certifications}
 \cvitemwithcomment{Udemy}{Advance}{Ethical Hacking by Z Security}
 \cvitemwithcomment{Udemy}{Advance}{The Ultimate Dark Web, Anonymity, Privacy \& Security Course by Z Security}
-\cvitemwithcomment{Udemy}{Advance}{Social Engineering Course by Z Security}
 \cvitemwithcomment{Udemy}{Advance}{Website Hacking, Penetration Testing \& Bug Bounty Hunting Course by Z Security}
 \cvitemwithcomment{Udemy}{Intermediate}{Embedded Systems Bare-Metal Programming Ground Up (STM32)}
 \cvitemwithcomment{Udemy}{Intermediate}{Embedded Systems Programming on ARM Cortex-M3/M4 Processor}
-\cvitemwithcomment{Coursera}{Intermediate}{HTML, CSS, and Javascript for Web Developers by Johns Hopkins University}
 \cvitemwithcomment{Coursera}{Beginner}{Cybersecurity and the Internet of Things
 by University System of Georgia}
 \cvitemwithcomment{Cisco}{Intermediate}{PCAP: Programming Essentials In Python 0420 dm by Cisco Virtual Academy}
 \cvitemwithcomment{Cisco}{Beginner}{Introduction to Cybersecurity 0220 wr by Cisco Virtual Academy}
 \newpage
 \section{Projects Done}
-\subsection{Remote Controlled Solar chargeable Night Patrolling Robot}
-\cvitem{\phantom{i}}{(Final Year Project)Oct 2020 - Present}
+\subsection{Remote Controlled Solar chargeable Night Patrolling Robot (Final Year Project)}
+\cvitem{\phantom{i}}{Oct 2020 - Aug 2021 \textbf{Presented the paper in an IEEE Conference (ASIANCON)}}
 
 \subsection{Rubber Ducky Attack Prevention}
-\cvitem{\phantom{i}}{(Jul 2020 - Sept 2020)}
+\cvitem{\phantom{i}}{Jul 2020 - Sept 2020}
 
 \subsection{Voice Controlled Home Automation Using MicroPython}
 \cvitem{\phantom{i}}{Dec 2019 - Jul 2020}
 
 \subsection{Parking Assist with Drones}
-\cvitem{\phantom{l}}{Nov 2019 - Present \textbf{IICDC-2019 by Texas Instruments}}
+\cvitem{\phantom{l}}{Nov 2019 - Dec 2020 \textbf{IICDC-2019 by Texas Instruments}}
 
 \subsection{Smart Real Time Waste Segregation System}
 \cvitem{\phantom{i}}{30-31 Mar 2019 \textbf{Kludge 6.0}}
